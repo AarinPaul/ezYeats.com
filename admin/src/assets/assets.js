@@ -16,4 +16,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://ezyeats-foods.onrender.com'
+export const url = 'https://ezyeats-com-backend.onrender.com'
