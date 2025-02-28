@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
 
   const calculateTimeLeft = () => {
-    const targetDate = new Date('December 25, 2024 00:00:00');
+    const targetDate = new Date('March 5, 2025 00:00:00');
     const now = new Date();
     const difference = targetDate - now;
 
@@ -71,7 +71,7 @@ const Header = () => {
       </div>
 
       <div className="countdown-container">
-        <h2>Christmas offer begins soon !</h2>
+        <h2>EaT & Repeat Offer !</h2>
         <div className="countdown-timer">
           <span>{timeLeft.days || 0} days &nbsp;: </span>
           <span>{timeLeft.hours || 0} hours &nbsp;: </span>
